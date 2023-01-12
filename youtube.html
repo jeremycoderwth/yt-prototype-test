@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>YouTube Prototype</title>
+	<link rel="stylesheet" href="yt-styles.css" />
+	<link rel="stylesheet" href="header.css" />
+	<link rel="stylesheet" href="general.css" />
+	<link rel="stylesheet" href="sidebar.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="left-sec">
+			<img class="menu-icon" src="yt-icons/hamburger-menu.svg" alt="menu-icon" />
+			<img class="yt-logo" src="yt-icons/youtube-logo.svg" alt="yt-icon" />
+		</div>
+		<div class="mid-sec"><input class="search-bar" type="text" placeholder="Search">
+			<button class="search-btn">
+				<img class="search-icon" src="yt-icons/search.svg" alt="search-icon" />
+				<div class="tooltip">Search</div>
+			</button>
+			<!-- Put position absolute inside position relative -->
+			<button class="voice-search-btn">
+				<img class="voice-search-icon" src="yt-icons/voice-search-icon.svg" alt="voice-search-icon" />
+				<div class="tooltip">Search with your voice</div>
+			</button>
+		</div>
+		<div class="right-sec">
+			<div class="upload-icon-container">
+				<img class="upload-icon" src="yt-icons/upload.svg" alt="upload-icon" />
+				<div class="tooltip">Create</div>
+			</div>
+			<img class="yt-apps-icon" src="yt-icons/youtube-apps.svg" alt="yt-apps" />
+			<div class="notifs-icon-container">
+				<img class="notifs-icon" src="yt-icons/notifications.svg" alt="notifs-icon" />
+				<div class="notifs-count">8</div>
+			</div>
+			<img class="yt-pfp" src="yt-icons/my-yt-pfp.jpg" alt="account-pic" />
+		</div>
+	</header>
+
+	<nav class="sidebar-nav">
+		<div class="sidebar-link">
+			<img src="yt-icons/home.svg" alt="home-icon" />
+			<div>Home</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="yt-icons/explore.svg" alt="explore-icon" />
+			<div>Explore</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="yt-icons/subscriptions.svg" alt="subs-icon" />
+			<div>Subscriptions</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="yt-icons/originals.svg" alt="orig-icon" />
+			<div>Originals</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="yt-icons/youtube-music.svg" alt="yt-music-icon" />
+			<div>Youtube Music</div>
+		</div>
+		<div class="sidebar-link">
+			<img src="yt-icons/library.svg" alt="library-icon" />
+			<div>Library</div>
+		</div>
+	</nav>
+
+	<main>
+		<section class="vid-grid">
+			<div class="vid-preview">
+				<div class="thumbnail-row">
+					<img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="yt-thumbnail-Ditto" >
+					<div class="vid-time">7:13</div>
+				</div>
+				<div class="vid-info-grid">
+					<div class="channel-pic">
+						<img class="pfp-one" src="channel-pfp/channel-pfp1.jpg" alt="it's Live-pfp" />
+					</div>
+					<div class="vid-info">
+						<p class="vid-title">
+							[4K] NewJeans - “Ditto” Band LIVE Concert [it's Live] K-POP live music show
+							</p>
+							<p class="vid-author">
+							it's Live
+							</p>
+							<p class="vid-stats">
+							7.1M views &#183; 2 weeks ago
+							</p>
+					</div>
+				</div>
+			</div>
+			<div class="vid-preview">
+				<div class="thumbnail-row">
+					<img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="congtv-blog" >
+				</div>
+				<div class="vid-info-grid">
+					<div class="channel-pic">
+						<img class="pfp-one" src="channel-pfp/channel-pfp2.jpg" alt="congtv-pfp"/>
+					</div>
+					<div class="vid-info">
+						<p class="vid-title">
+						BALAS
+						</p>
+						<p class="vid-author">
+						Cong TV
+						</p>
+						<p class="vid-stats">
+						2M views &#183; 3 days ago
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="vid-preview">
+				<div class="thumbnail-row">
+					<img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="iman-gadzhi-vid" >
+				</div>
+				<div class="vid-info-grid">
+					<div class="channel-pic">
+						<img class="pfp-one" src="channel-pfp/channel-pfp3.jpg" alt="iman-gadzhi-pfp"/>
+					</div>
+					<div class="vid-info">
+						<p class="vid-title">
+						5 Side Hustles To Start In 2023
+						</p>
+						<p class="vid-author">
+						Iman Gadzhi
+						</p>
+						<p class="vid-stats">
+						1.1M views &#183; 9 months ago
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="vid-preview">
+				<div class="thumbnail-row">
+					<a href="https://youtu.be/nreANhKNDNo" rel="noopener" target="_blank"><img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="chris-brown-wtb" >
+					</a>
+				</div>
+				<div class="vid-info-grid">
+					<div class="channel-pic">
+						<img class="pfp-one" src="channel-pfp/channel-pfp4.jpg" alt="lyrical-boss-pfp" />
+					</div>
+					<div class="vid-info">
+						<p class="vid-title">
+							Chris Brown - Wet The Bed (Lyrics)
+							</p>
+							<p class="vid-author">
+							Lyrical Boss
+							</p>
+							<p class="vid-stats">
+							4.3K views &#183; 2 days ago
+							</p>
+					</div>
+				</div>
+			</div>
+			<div class="vid-preview">
+				<div class="thumbnail-row">
+					<img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="congtv-blog" >
+				</div>
+				<div class="vid-info-grid">
+					<div class="channel-pic">
+						<img class="pfp-one" src="channel-pfp/channel-pfp5.jpg" alt="pewdiepie-pfp"/>
+					</div>
+					<div class="vid-info">
+						<p class="vid-title">
+						Saying goodbye is hard..
+						</p>
+						<p class="vid-author">
+						PewDiePie
+						</p>
+						<p class="vid-stats">
+						7.6M views &#183; 9 days ago
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="vid-preview">
+				<div class="thumbnail-row">
+					<img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="vevo-starboy" >
+				</div>
+				<div class="vid-info-grid">
+					<div class="channel-pic">
+						<img class="pfp-one" src="channel-pfp/channel-pfp6.jpg" alt="the-weeknd-pfp" />
+					</div>
+					<div class="vid-info">
+						<p class="vid-title">
+							The Weeknd - Starboy ft. Daft Punk (Official Video)
+							</p>
+							<p class="vid-author">
+							The Weeknd
+							</p>
+							<p class="vid-stats">
+							2.1B views &#183; 6 years ago
+							</p>
+					</div>
+				</div>
+			</div>
+			<div class="vid-preview">
+				<div class="thumbnail-row">
+					<img class="thumbnail" src="thumbnails/thumbnail-7.webp" alt="self-discipline-story" >
+				</div>
+				<div class="vid-info-grid">
+					<div class="channel-pic">
+						<img class="pfp-one" src="channel-pfp/channel-pfp7.jpg" alt="freedom-in-thought-pfp"/>
+					</div>
+					<div class="vid-info">
+						<p class="vid-title">
+						How to be more disciplined (animated short story)
+						</p>
+						<p class="vid-author">
+						Freedom in Thought
+						</p>
+						<p class="vid-stats">
+						5M views &#183; 5 years ago
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="vid-preview">
+				<div class="thumbnail-row">
+					<img class="thumbnail" src="thumbnails/thumbnail-8.webp" alt="hybe-new-jeans-mv" >
+				</div>
+				<div class="vid-info-grid">
+					<div class="channel-pic">
+						<img class="pfp-one" src="channel-pfp/channel-pfp8.jpg" alt="hybe-pfp" />
+					</div>
+					<div class="vid-info">
+						<p class="vid-title">
+							NewJeans (뉴진스) 'Ditto' Official MV (side B) 
+							</p>
+							<p class="vid-author">
+							HYBE LABELS
+							</p>
+							<p class="vid-stats">
+							12M views &#183; 3 weeks ago
+							</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
