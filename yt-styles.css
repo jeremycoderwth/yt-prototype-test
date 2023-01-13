@@ -1,3 +1,13 @@
+.vid-preview {
+  transition: all 0.6s ease;
+  position: relative;
+}
+
+.vid-preview:hover {
+  margin-top: 35px;
+  transform: scale(1.05);
+}
+
 .thumbnail {
   width: 100%;
 }
